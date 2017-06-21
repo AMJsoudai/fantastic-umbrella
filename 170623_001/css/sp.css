@@ -1,0 +1,471 @@
+@charset "UTF-8";
+@media screen and (max-width: 767px){
+/*-------------------------------------------------------------------*/
+
+
+
+
+.titarea_i,
+.pc_v_area
+{
+ display: none;
+}
+
+
+
+.bnr_img_pc {
+ display: none;
+}
+
+html{
+ height: 100%;
+}
+
+
+body,h1,h2,h3,h4,h5,h6,div,p,pre,ul,ol,dl,dt,dd,address,form,blockquote,article,section,figure,textarea,input{
+ margin: 0;
+ padding: 0;
+ font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Helvetica,"MS Pゴシック","MS PGothic",sans-serif;
+    vertical-align: baseline;
+}
+
+
+
+
+img{
+ border: none;
+ vertical-align: top;
+ width: 100%;
+}
+ul{
+ list-style: none;
+}
+a{
+ outline: none;
+ overflow: hidden;
+ cursor: pointer;
+ text-decoration: none;
+}
+a:hover{
+ outline: none;
+ overflow: hidden;
+ cursor: pointer;
+}
+a img{
+ border: 0px;
+}
+
+.clear{
+ clear: both;
+}
+
+
+.header{
+ height: 30px;
+ margin: 0 auto;
+}
+.hlogo{
+ margin-top: 2%;
+ margin-left: 4%;
+ width: 158px;
+}
+
+.lg {
+ display:none;
+}
+
+
+
+.main img{
+}
+
+
+
+
+
+.listAccordion label {
+  display: block;
+  cursor: pointer;
+}
+.listAccordion label:hover {
+}
+.listAccordion input[type="checkbox"].on-off {
+  display: none;
+}
+.listAccordion .listTips {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ededed;
+}
+.listAccordion input[type="checkbox"].on-off + .listTips {
+  height: 0;
+  overflow: hidden;
+}
+.listAccordion input[type="checkbox"].on-off:checked + .listTips {
+  height: auto;
+}
+
+
+
+
+.gnav {
+ background-color:#323232;
+}
+
+.gnav_area {
+ margin:0 auto;
+}
+.gnavs,
+.gnavs2 {
+ font-size:14px;
+ color:#fff;
+ text-align:center;
+ line-height: 3.6em;
+ border-top: solid 1px #898a8a;
+}
+
+.gnavs a,
+.gnavs2 a {
+ text-align:center;
+ color:#fff;
+ text-decoration:none;
+ display: block;
+}
+
+.gnavs a:hover,
+.gnavs2 a:hover {
+ color:#0053a6;
+ text-decoration:none;
+}
+
+
+
+
+
+
+.pan {
+ width:94%;
+ margin:0 auto;
+ border-top:dotted 1px #a7a7a7;
+ margin-bottom: 2%;
+}
+
+.pan_area {
+    margin:0;
+    padding: 2% 2% 0% 2%;
+}
+
+.pan_area p {
+    margin:0;
+    padding:0 2% 0 0;
+    float:left;
+    font-size:0.6em;
+    color:#999
+}
+
+.pan_area p a {
+    color:#1a64af;
+    text-decoration:none
+}
+
+.pan_area p a:hover {
+    text-decoration:underline
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.siteindex2 {
+    padding:0;
+    background-color:#333
+}
+
+.siteindex2 ul {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    list-style:none
+}
+
+.siteindex2 li {
+    margin:0 2%;
+    padding:0;
+    font-size: 0.8em;
+    border-bottom:solid #464646 1px;
+    text-align:left;
+    line-height: 3em;
+    width: 45%;
+    text-indent: 4%;
+    float:left;
+    background:url(../img/libg2.jpg) no-repeat;
+    background-position:center right
+}
+
+.siteindex2 li a {
+    display:block;
+    color:#fff;
+    text-decoration:none
+}
+
+.siteindex2 li a:hover {
+    text-decoration:underline
+}
+
+.siteindex3 {
+    padding:0;
+    background-color:#fff;
+}
+
+.siteindex3 ul {
+    padding:0;
+    list-style:none;
+    border-top:solid #898989 1px
+}
+
+.siteindex3 li {
+    margin:0;
+    padding:10% 0 4%;
+    font-size: 0.8em;
+    text-align:center;
+    background:url(../img/libg3.jpg) no-repeat;
+    background-position:top center
+}
+
+.siteindex3 li a {
+    display:block;
+    color:#333;
+    text-decoration:none
+}
+
+.siteindex3 li a:hover {
+    text-decoration:underline
+}
+
+.topc {
+    background-color:#f3f3f3;
+    padding:10% 0
+}
+
+.topc_area {
+    width:80%;
+    margin:0 auto
+}
+
+.address_area {
+    background-color:#595757;
+    padding:4% 0
+}
+
+.address_area address {
+    text-align:center;
+    color:#fff;
+    font-style:normal;
+    font-size:0.6em
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+.small_cont{
+ width: 90%;
+ margin: 0 auto 100px;
+}
+.small_cont * { font-family: Roboto, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Pゴシック","MS PGothic",sans-serif;}
+
+.lp-title{
+ color: #999;
+ font-size: 1.6em;
+ font-weight: bold;
+ margin-top: 14%;
+ border: solid 1px #999;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ padding: 10px 20px 10px 20px;
+}
+
+.lp-title2{
+ color: #999;
+ font-size: 1.4em;
+ margin-top: 10%;
+ margin-bottom: 1%;
+ border-bottom: solid 1px #999;
+}
+
+.small_lr{
+}
+.small_l{
+ text-align: center;
+}
+.small_r{
+}
+.small_l img,
+.small_r img{
+ width: 100%;
+ margin-top: 4%;
+}
+
+.item_copy{
+ color: #999;
+ font-weight: bold;
+ font-size: 1.2em;
+ margin-bottom: 4%;
+ margin-top: 6%;
+}
+.item_name{
+	margin-top:4%;
+	color: #333;
+	font-size: 1em;
+	line-height: 2em;
+}
+.item_name a{
+	color: #333;
+	text-decoration: underline;
+}
+.item_name a:hover{
+	text-decoration: none;
+}
+.item_price{
+	margin-top: 10px;
+	color: #333;
+	font-size: 2em;
+	margin-bottom: 10%;
+}
+.item_price span{
+	color: #666;
+	font-size: 12px;
+}
+
+.small_r_btn{
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 12%;
+}
+.small_r_btn a{
+	color: #154f9b;
+	font-size: 1.2em;
+	border: solid 1px #154f9b;
+	padding: 3% 17% 3% 17%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+.small_r_btn a:hover{
+	color: #fff;
+	font-size: 1.2em;
+	background-color: #333;
+	border: solid 1px #333;
+	padding: 3% 17% 3% 17%;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.small_cont iframe{
+	height: 376px;
+}
+
+
+.small_tx{
+ color: #666;
+ font-size: 16px;
+ line-height: 2em;
+ margin-top: 4%;
+ margin-bottom: 4%;
+}
+.small_ti3{
+ color: #999;
+ font-size: 1.4em;
+ margin-top: 10%;
+ margin-bottom: 1%;
+ border-bottom: solid 1px #999;
+}
+
+
+
+.small_more{
+ text-align: center;
+ margin-bottom: 12%;
+}
+.small_more a{
+ display: block;
+ box-sizing: border-box;
+ min-width: 288px;
+ width: 86%;
+ margin: 0 auto;
+ padding: 3%;
+ color: #333;
+ font-size: 1em;
+ border: solid 1px #333;
+ text-decoration: none;
+}
+.small_more a:hover{
+ color: #fff;
+ background-color: #333;
+ border: solid 1px #333;
+ text-decoration: none;
+}
+
+
+/* banner 間隔詰め */
+.small_area.banner .small_more {
+	margin-top: 4%;
+}
+.small_area.banner .small_tx + .small_more {
+	margin-top: 0;
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+}

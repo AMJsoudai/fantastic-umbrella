@@ -1,0 +1,230 @@
+html, body{margin: 0; padding: 0;}
+ul{list-style: none; padding: 0; margin: 0;}
+li{padding: 0; margin: 0;}
+p{margin: 0; padding: 0;}
+.mail_contents{width: 700px; margin: 0 auto;}
+.mail_first_view{margin-bottom: 1em;text-align: center;}
+.mail_ttl{margin-bottom: 1.5em;text-align: center;}
+/*.mail_item_1colmun*/
+.mail_item_1colmun{
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.mail_item_1colmun a{
+  border: 1px solid #ccc;
+  display: block;
+  padding: 1%;
+}
+/*mail_item_2colmun*/
+.mail_item_2colmun li{
+  width: 48%;
+  margin-right: 4%;
+  float: left;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.mail_item_2colmun li a{
+  border: 1px solid #ccc;
+  display: block;
+  padding: 1em 0;
+}
+.mail_item_2colmun li:nth-child(2n){
+  margin-right: 0%;
+}
+.mail_item_2colmun li img{
+}
+/*mail_item_3colmun*/
+.mail_item_3colmun{
+  margin-bottom: 1.5em;
+}
+
+.mail_item_3colmun li{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  margin-bottom: 1.5em;
+}
+
+.mail_item_3colmun li:nth-child(3n){
+  margin-right: 0;
+}
+
+.mail_item_3colmun li a{
+  border: 1px solid #ccc;
+  display: block;
+}
+/*mail_item_L1-R2*/
+.mail_item_L1-R2{
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-bottom: 1.5em;
+}
+.mail_item_L1-R2 li{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.mail_item_L1-R2_R p:first-child{
+  margin-bottom: 1.0em;
+}
+
+
+/*.mail_item_T1-B3*/
+.mail_item_T1-B3{
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-bottom: 1.5em;
+}
+.mail_item_T1-B3_B{
+  margin-bottom: 1em;
+}
+.mail_item_T1-B3_B:last-child{
+  margin-bottom: 0;
+}
+.mail_item_T1-B3_B li{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+}
+.mail_item_T1-B3_B li:last-child{
+  margin-right: 0;
+}
+
+/*.mail_item_T1-B4*/
+.mail_item_T1-B4{
+  border: 1px solid #ccc;
+  padding: 2%;
+  margin-bottom: 1.5em;
+}
+.mail_item_T1-B4_B li{
+  float: left;
+  width: 24%;
+  margin-right: 1%;
+}
+
+.mail_bnr_contents{
+  width: 94%;
+  padding: 0 3%;
+}
+
+.mail_bnr_contents li{
+  float: left;
+  margin-bottom: 1.0em;
+}
+
+.mail_bnr_content_L{
+  width: 100%;
+}
+.mail_bnr_content_S img{
+  width: 100%;
+}
+.mail_bnr_content_S{
+  width: 49%;
+}
+.mail_bnr_content_S_left{
+  margin-right: 1%;
+
+}
+.mail_bnr_content_S_right{
+  margin-left: 1%;
+}
+
+/*mail_category_contents*/
+
+.mail_category_ttl{
+  width: 100%;
+  border-bottom: solid 1px #989898;
+  margin: 3% 0;
+}
+
+.mail_category_ttl p{
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.mail_category_contents{
+  width: 100%;
+}
+
+.mail_category_contents li p a{
+  text-decoration: none;
+}
+
+.mail_category_contents li p a:link,.mail_category_contents li p a:visited,.mail_category_contents li p a:hover,.mail_category_contents li p a:active{
+  color: white;
+}
+
+.mail_category_contents li{
+  width: 30%;
+  height: 50px;
+  float: left;
+  background-color: #000;
+  margin: 1em 0 0 1em;
+}
+
+.mail_category_contents li p{
+  padding: 1.1em 1.2em;
+  font-weight: bold;
+  color: white;
+  font-size: 80%;
+}
+
+.mail_category_contents li p span{
+  padding-left: 0.8em;
+  font-weight: bold;
+  color: white;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*.mail_category_contents2lines{
+  padding: 0.1em 1.2em !important;
+}*/
+
+.mail_category_contents1item{
+  width: 95% !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px){
+  .mail_contents img {width: 100%;}
+  .mail_contents{width: 100%;}
+  .mail_item_2colmun li{margin-bottom: 1.0em;}
+  .mail_ttl{margin-bottom: 1.0em;}
+  .mail_item_3colmun{margin-bottom: 1.0em;}
+  .mail_bnr_contents li{margin-bottom: 0.3em;}
+  .mail_category_contents li{
+      width: 40%;
+      height: 50px;
+      float: left;
+      background-color: #000;
+      margin: 1em 0 0 1em;
+  }
+  .mail_category_contents1item{
+    width: 85% !important;
+    text-align: center;
+  }
+  .mail_category_contents2lines{
+    padding: 1em 0.8em !important;
+  }
+  .mail_category_contents li p{
+    padding: 1.8em 0.5em;
+       font-weight: bold;
+       color: white;
+       font-size: 40%;
+  }
+}
